@@ -23,7 +23,7 @@ PieChart is a simple animated pie chart for iOS apps.
         
         self.chartView.addAnimation = false
         self.chartView.animationDuration = 1.0
-        self.chartView.sperator = 3 / space between chart items
+        self.chartView.sperator = 3 // space between chart items
         
         self.chartView.drawChart([PieChartItem (UIColor.red, 10.0),
                                   PieChartItem (UIColor.green, 20.0),
